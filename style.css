@@ -64,6 +64,7 @@ h1 {
 
 .tech .card {
   padding: 20px;
+  margin-bottom: 20px;
   border: none;
   border-radius: 1000px;
   box-shadow: rgba(17, 218, 245, 0.904) 5px 5px ;
