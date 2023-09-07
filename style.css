@@ -42,7 +42,8 @@ body {
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 65px;
+  grid-auto-rows: auto;
 }
 
 .sticky {
