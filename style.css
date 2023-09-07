@@ -40,10 +40,9 @@ body {
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 1.2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
 }
 
 .sticky {
@@ -94,10 +93,9 @@ h1 {
 }
 
 .tech p {
-  font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 30px
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 
@@ -116,10 +114,11 @@ h1 {
 }
 
 .edu .card h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
+  margin-top: 12px;
 }
 
 .edu .card p {
