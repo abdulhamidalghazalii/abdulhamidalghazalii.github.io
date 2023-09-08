@@ -35,15 +35,20 @@ body {
   background-attachment: fixed;
 }
 
-.jumbotron {
-  padding: 2rem 2rem;
-}
+
 
 h1 {
-  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 65px;
-  grid-auto-rows: auto;
+  line-height: 1.2em;
+}
+header h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-top: 25px;
+  font-size: 20px;
+  color: #19A7CE;
 }
 
 .sticky {
@@ -54,7 +59,7 @@ h1 {
 .jobs {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 15px;
   margin-top: 20px;
 }
 
