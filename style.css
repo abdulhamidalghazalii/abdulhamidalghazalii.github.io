@@ -83,6 +83,14 @@ header h2 {
   margin-top: 12px;
 }
 
+.tech .card .title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
 .tech .card p {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
