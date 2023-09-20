@@ -10,7 +10,7 @@
 
 .lightMode {
   --bg-color: #171923;
-  --bg-light: #232535;
+  --bg-light: #696b74;
   --font-color: #c5cddb;
   --font-light: #ffffff;
   --text-muted: #ffffff;
@@ -72,7 +72,7 @@ header h2 {
   border: none;
   border-radius: 1000px;
   box-shadow: rgba(17, 218, 245, 0.904) 5px 5px ;
-  background-color: #fff;
+  background-color: var(--bg-light);
 }
 
 .tech .card h2 {
@@ -81,6 +81,7 @@ header h2 {
   font-size: 20px;
   margin-bottom: 1px;
   margin-top: 12px;
+  color: var(--font-light);
 }
 
 .tech .card .title {
@@ -96,6 +97,7 @@ header h2 {
   font-weight: 600;
   font-size: 15px;
   margin-bottom: 1px;
+  color: var(--font-light);
 }
 
 .tech h2 {
@@ -103,12 +105,14 @@ header h2 {
   font-weight: 700;
   margin-bottom: 5px;
   margin-top: 50px;
+  color: var(--font-light);
 }
 
 .tech p {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   margin-bottom: 100px;
+  color: var(--font-light);
 }
 
 
@@ -122,7 +126,7 @@ header h2 {
   border: none;
   border-radius: 15px;
   box-shadow: rgba(17, 218, 245, 0.904) 5px 5px;
-  
+  background-color: var(--bg-light);
   margin-bottom: 20px;
 }
 
@@ -152,7 +156,7 @@ header h2 {
   border: none;
   border-radius: 15px;
   box-shadow: rgba(17, 218, 245, 0.904) 5px 5px;
-  background-color: #fff;
+  background-color: var(--bg-light);
 }
 
 .project .card h2 {
@@ -180,4 +184,38 @@ header h2 {
     border: none;
     border-radius: 15px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.floatingButtonWrap {
+    display: block;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    z-index: 999999999;
+}
+
+.floatingButtonInner {
+    position: relative;
+}
+
+.floatingButton {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #19A7CE;
+    color: #fff;
+    line-height: 50px;
+    position: absolute;
+    border-radius: 50% 50%;
+    bottom: 0px;
+    right: 0px;
+    border: 5px solid #b2bedc;
+    /* opacity: 0.3; */
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+.floatingButton .fa {
+    font-size: 15px !important;
 }
